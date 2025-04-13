@@ -1,0 +1,62 @@
+// <Lattice object of 4 atoms 16 concepts 5 coatoms at 0x1b732b676f0>
+digraph Lattice {
+	node [label="" shape=circle style=filled width=.25]
+	edge [dir=none labeldistance=1.5 minlen=2]
+	c0
+	c1
+	c1 -> c1 [color=transparent headlabel="Elizabeth Nelson" labelangle=270]
+	c1 -> c0
+	c2
+	c2 -> c2 [color=transparent headlabel="Adam Estrada" labelangle=270]
+	c2 -> c0
+	c3
+	c3 -> c3 [color=transparent headlabel="Joanne Rivera" labelangle=270]
+	c3 -> c0
+	c4
+	c4 -> c4 [color=transparent headlabel="Lisa Jenkins" labelangle=270]
+	c4 -> c0
+	c5
+	c5 -> c1
+	c5 -> c3
+	c6
+	c6 -> c1
+	c6 -> c4
+	c7
+	c7 -> c7 [color=transparent headlabel="Sarah Thomas" labelangle=270]
+	c7 -> c4
+	c8
+	c8 -> c8 [color=transparent labelangle=90 taillabel="View Audit Log"]
+	c8 -> c2
+	c8 -> c5
+	c9
+	c9 -> c9 [color=transparent labelangle=90 taillabel=Execute]
+	c9 -> c6
+	c9 -> c7
+	c10
+	c10 -> c10 [color=transparent headlabel="Casey Taylor" labelangle=270]
+	c10 -> c3
+	c10 -> c4
+	c11
+	c11 -> c11 [color=transparent headlabel="Andrea Jones Robert Little" labelangle=270]
+	c11 -> c4
+	c12
+	c12 -> c12 [color=transparent labelangle=90 taillabel=Delete]
+	c12 -> c5
+	c12 -> c6
+	c12 -> c10
+	c13
+	c13 -> c13 [color=transparent labelangle=90 taillabel="Database Write"]
+	c13 -> c2
+	c13 -> c7
+	c13 -> c11
+	c14
+	c14 -> c14 [color=transparent labelangle=90 taillabel=Read]
+	c14 -> c10
+	c14 -> c11
+	c15
+	c15 -> c8
+	c15 -> c9
+	c15 -> c12
+	c15 -> c13
+	c15 -> c14
+}
